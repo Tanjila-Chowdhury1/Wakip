@@ -1,36 +1,69 @@
-th{
-    font-size:30px;
-    color: brown;
+*{
+    margin: 0;
 }
-.first_tr{
-    font-size:20px;
-    background-color: coral;
+.header{
+    background-color: aqua;
+    width: 100%; height: 100px;
+    text-align: center;
 }
-.second_tr{
-background-color: cyan;
-font-size:50px;
-}
-.third_tr{
-    background-color: darkgreen;
-    font-size:60px;
-}
-.fourth_tr{
-    color: darkorchid;
-    text-align:center;
-}
-.fifth_tr{
-    text-align: end;
-    color: indianred;
-}
-.twenty_tr{
-    background-color: khaki;
-    color: maroon;
-}
-.fourty_tr{
-    color: yellow;
-}
-.fifty_tr{
-    color: tomato;
-    background-color: wheat;
+.header h1{
 
+    color: crimson;
+}
+.banner{
+    background-color: darkblue;
+    width: 100%; height: 200px;
+    text-align: center;
+}
+.banner h1{
+    color: deeppink;
+}
+.left-content{
+
+    background-color: indigo;
+    width: 50%; height: 200px;
+    text-align: center;
+    float: left;
+}
+.left-content h1{
+    color: lawngreen;
+}
+.right-content{
+    background-color: palegreen;
+    width: 50%; height: 200px;
+    text-align: center;
+    float: right;
+}
+.right-content h1{
+    color: purple;
+}
+.content{
+    overflow: hidden;
+}
+.item-one{
+    background-color: royalblue;
+    width: 33.3%; height: 200px;
+    text-align: center;
+    float: left;
+}
+.item-two{
+    background-color: rgb(225, 65, 118);
+    width: 33.3%; height: 200px;
+    text-align: center;
+    float: left;
+    color: teal;
+}
+.item-three{
+    background-color: rgb(65, 225, 164);
+    width: 33.3%; height: 200px;
+    text-align: center;
+    float: left;
+}
+.item{
+    overflow: hidden;
+}
+.footer{
+    background-color: slategray;
+    width: 100%; height: 300px;
+    text-align: center;
 }
