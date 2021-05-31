@@ -1,206 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    border: 2px solid rgb(180, 177, 177);
 
-* {
-     margin: 0px; 
-     padding: 0px; 
-    }
-header {
-     width: 82%;
-     margin: auto;
-     overflow: hidden;
-     padding: 40px 0px;
-     }
-.logo {
-    
-     width: 22%;
-    
-    float: left;
-    }
-.logo img {
-     width: 60%;
-     }
-nav {
-     float: left;
-     padding: 7px 63px 10px;
-     }
-nav ul { 
-    list-style: none;
-     overflow: hidden; 
-    }
-nav ul li {
-    float: left;
+}
+
+.collapse{
+    margin-left: 600px;
+}
+
+
+
+.nav-item{
+    font-size: 20px;
+    letter-spacing: 2px;
     text-transform: capitalize;
     margin-left: 20px;
-    }
-  .purches-1{
-    width: 18%;
-    margin: auto;
-    overflow: hidden;
-    float: right;
-  }  
-  .purches-1img{
-      width: 18%;
-      float: right;
-      margin: 5%;
-  }
+}
+.content1{
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
 
-  section.content {
-    width: 60%;
-    margin: auto;
-    overflow: hidden;
-    padding: 150px 0px;
 }
 
-.content-left {
-    width: 48%;
-    float: left;
+.content1 h2{
+ font-size: 50px;
+ margin: 20px 0;
 }
 
-.content-left h1 {
-    font-size: 37px;
-    color: rgb(41, 38, 64);
-    padding: 20px 0px;
-}.content-left p {
-    line-height: 22px;
-    color: rgb(177, 178, 179);
+.content1 h3{
+    font-size: 50px;
+    color: rgb(45, 90, 185);
+    margin: 20px 0;
 }
 
-.content-right {
-    width: 52%;
-    float: left;
-}
-
-.content-right img {
-    width: 96%;
-    margin-left: 20px;
-}
-.text-demo {
-    width: 50%;
-    margin: auto;
+.text_content{
+    
     text-align: center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-.text-demo h1 {
-    text-transform: capitalize;
-}
-.text-demo p {
-    color: rgb(177, 178, 179);
-    font-style: italic;
-    margin: 20px 0px 30px;
-}
-.item { 
-    width: 90%; 
-    margin: auto; 
-    overflow: hidden; 
-    text-align: center;
-     padding-bottom: 100px; }
-.item1 { 
-    float: left; 
-    width: 23%; }
-.item1 img { 
-    width: 100%;
- }
- .item1 h2{
-        text-align: center;
-        text-transform: capitalize;
-        color: rgb(41, 38, 64);
- }
-.item2 {
-     float: left; 
-     width: 23%; 
-     margin-left: 2%; }
-.item2 img { 
-    width: 87%; }
-    .item2 h2{
-        text-align: center;
-        text-transform: capitalize;
-        color: rgb(41, 38, 64);
- }
-.item3 { 
-    float: left; 
-    width: 23.5%; 
-    margin-left: 2.3%; }
-.item3 img {
-     width: 96%; }
-     .item3 h2{
-        text-align: center;
-        text-transform: capitalize;
-        color: rgb(41, 38, 64);
- }
-.item4 { 
-    float: right; width: 23.5%; }
-.item4 img { 
-    width:96%; }
-    .item4 h2{
-        text-align: center;
-        text-transform: capitalize;
-        color: rgb(41, 38, 64);
- }
-.feature{
 
-        width: 60%;
-        
-        margin: auto;
-        
-        text-align: center;
-        
-        padding-bottom: 30px;
-        }
- .feature h2{
-        
-        font-family: sans-serif;
-        
-        color: #292640;
-        text-transform: capitalize;
-        }
-.feature p{
-            
-        font-style: italic;
-            
-        color: #C2C3C4;
-            
-        padding: 10px 0;
-        text-transform: capitalize;
-        }
-.feature_image{
-        width: 60%;
-        margin: auto;
-        overflow: hidden;
+
+
+.left h2 {
+
+font-size: 50px;
+text-align: right;
+ color: rgb(234, 90, 109);
+}
+
+.left p{
+    font-size: 16px;
+    text-align: right;
+}
+
+
+.right h2{
+    text-align: left;
+    font-size: 50px;
+   color: rgb(27, 40, 84);
+   margin-left: 10px;
+}
+
+.card-section{
+    margin: 50px 0;
+}
+
+
+.card1{
+ background-color: #FDEBED;
+ padding: 30px 40px;
+}
+
+.card-title {
+    margin:15px 0 ;
     }
     
-    .feature_img1, .feature_img2, .feature_img3, .feature_img4, .feature-img5, .feature-img6
-    {
-        width:100%;
-        margin: auto;
-        overflow: hidden;
-        float: left;
-    }
+
+
+.card2{
+    padding: 30px 40px;
     
-.footer { 
-     width: 100%; 
-     font-family: sans-serif;
-     text-align: center; 
-     background-color: rgb(41, 38, 64);
-     padding: 45px 0px 68px;
-     margin-top: 100px; 
+    background-color: #EBF9F4;
+}
+
+.card3{
+    padding: 30px 40px;
+    background-color: #FFF7E8;
+}
+
+.card1, .card2 .card3 img{
+width: 100;
+}
+
+
+footer 
+{
+     background-color: #008AFF; 
+     text-align: center;
+     padding: 40px 0;
+     margin-top: 50px;
     }
-    .footer-text {
-        
-            width: 20%;
-            text-align: center;
-            padding: 22px;
-            margin: auto;
-            color: rgb(255, 255, 255);
-    }
-    .purches-2{
-        width: 100%;
-        margin: auto;
-        overflow: hidden;
-    }
-     .theme{
-        width: 100%;
-        margin: auto;
-        padding: 22px 0px 60px;
-     }  
-    
- 
-    
-  
+     
+footer p{
+
+color: #88caff;
+
+font-size: 18px;
+}
+ footer p span{
+      
+color: #fff;
+      
+font-size: 20px;
+      
+font-weight: 700;
+      
+letter-spacing: 2px;
+ }
