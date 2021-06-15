@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     }
-    .icon {
+.icon {
         position: absolute;
         color: #fff;
         font-size: 30px;
@@ -43,5 +43,312 @@
 100%{
     top: 90%;
 }
+    }
+.Who-We-Are{
+
+    padding: 80px 0px;
+    
+    }
+.Who-We-Are p{
+    
+    color: #b0b0b1;
+    
+    }
+.heading span{
+    
+    display: inline-block;
+      
+    width: 0px;
+    
+    height: 5px;
+    
+    background: orangered;
+    transition: .5s all ease-in-out;
+    
+    }
+.heading h1{
+    
+    color: #204f87;
+    
+    font-size: 40px;
+    
+    text-transform: uppercase;
+    
+    }
+    .Who-We-Are:hover .heading span{
+        width: 50px;
+    }
+    .What-We-Do{
+background-color:#f7f8f8;
+padding: 70px 0;
+background-image: url(../images/bg1.png);
+background-position: right bottom;
+background-repeat: no-repeat;
+background-size: 800px;
+color: #204f87;
+    }
+    .heading-two{
+        padding: 50px 0;
+    }
+    .heading-two span{
+        display: inline-block;
+      
+        width: 0px;
+        
+        height: 5px;
+        
+        background: orangered;
+        transition: .5s all ease-in-out;
 
     }
+    .title h1{
+        color:#fff;
+    
+    font-size: 40px;
+    
+    text-transform: uppercase;
+
+    }
+    .What-We-Do:hover .heading-two span{
+        width: 50px;
+    }
+    .image{
+        position: relative;
+        
+    }
+    .image::before{
+        content:"" ;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 0%;
+       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f4c6b+25,3f4c6b+99&0+25,1+95,1+99 */
+background: -moz-linear-gradient(top,  rgba(63,76,107,0) 25%, rgba(63,76,107,1) 95%, rgba(63,76,107,1) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(63,76,107,0) 25%,rgba(63,76,107,1) 95%,rgba(63,76,107,1) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(63,76,107,0) 25%,rgba(63,76,107,1) 95%,rgba(63,76,107,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+
+        transition: .4s all ease-in-out;
+    }
+    .image:hover::before{
+        height: 100%;
+    }
+    .title{
+        position: absolute;
+        top:50%;
+        color: #f7f8f8;
+        text-transform: uppercase;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: .5s all ease-in-out;
+        }
+        .title h1{
+            
+            font-size: 18px;
+            
+        }
+        
+        .image:hover .title{
+            opacity: 1;
+            top: 45%;
+        }
+        .errow-icon{
+            position: absolute;
+            color: #fff;
+            top: 75%;
+            left: 45%;
+            transform: translateX(-50%);
+            font-size: 40px;
+            transition: .4s all ease-in-out;
+        }
+        .image:hover .errow-icon{
+            opacity: 1;
+            left: 50%
+
+        }
+        .our-attorneys{
+            background-image: url(../images/bg2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            
+            
+            
+        }
+        .OT span {
+            display: inline-block;
+          
+            width: 0px;
+            
+            height: 5px;
+            
+            background: orangered;
+            transition: .5s all ease-in-out;
+            margin-top: 180px;
+          
+    
+            }
+            .our-attorneys:hover  .OT span {
+                width: 50px;
+                
+             }
+       
+
+        .our-attorneys h1{
+            color: #f7f8f8;
+            text-transform: uppercase;
+            font-size: 25px;
+
+        }
+        .our-attorneys p{
+            color: #b0b0b1;
+           
+        }
+        .our-attorneys h2{
+            color: orangered;
+            text-transform: uppercase;
+            font-size: 70%;
+
+        }
+       
+    
+        .title2{
+            position: absolute;
+           bottom: 10%;
+            left: 0%;
+            color: #fff;
+            opacity: 0;
+            transition: .5s all ease-in-out;
+           
+        }
+        .image:hover .title2{
+            opacity: 1;
+           left: 15%;
+        }
+        
+        
+        
+.TL{
+    background-color: #fff;
+    padding: 70px 0;
+}
+.heading-four span{
+    display: inline-block;
+  
+    width: 0px;
+    
+    height: 5px;
+    
+    background: orangered;
+    transition: .5s all ease-in-out;
+
+}
+.heading-four h1{
+    color: #204f87;
+
+font-size: 40px;
+
+text-transform: uppercase;
+
+}
+.TL:hover .heading-four span{
+    width: 50px;
+}
+.country{
+   padding: 50px 0px;
+}
+.country h2{
+    color: #204f87;
+    text-transform: uppercase;
+}
+.country p{
+    color: #b0b0b1;
+} 
+.country h3{
+color: orangered;
+text-transform: uppercase;
+}  
+.contact-us{
+color: #fff;
+text-transform: uppercase;
+background-color: #204f87;
+}
+.heading-two span{
+    display: inline-block;
+  
+    width: 0px;
+    
+    height: 5px;
+    
+    background: orangered;
+    transition: .5s all ease-in-out;
+
+}
+.contact-us:hover .heading-two span{
+    width: 50px;
+}
+.contact-us form{
+
+}
+.contact-us form input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #9a9a9a;
+    margin-bottom: 15px;
+    caret-color:#fff; 
+}
+.contact-us form input:focus-visible{
+    outline: none;
+}
+.contact-us form input[type="submit"]{
+    border: none;
+    background-color: orangered;
+    width: 120px;
+    height: 45px;
+    color: #fff;
+    font-size: 20px;
+    transition: .4s all ease-in-out;
+   
+    margin-left: 200px;
+}
+.contact-us form input[type="submit"]:hover{
+    background-color: transparent;
+    border:2px solid orangered;
+}
+.contact-us form input::placeholder{
+    color: #fff;
+}
+.contact-us form textarea{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #9a9a9a;
+    margin-bottom: 15px;
+    caret-color:#fff; 
+}
+.contact-us form textarea::placeholder{
+    color: #fff;
+}
+.contact-us form textarea:focus-visible{
+    outline: none;
+}
+.footer{
+    background-color:#0c1234;
+    height: 80px;
+}
+.footer h1{
+    font-size: 20px;
+    color: #616ca8;
+    padding: 20px 0;
+}
+.social-icon{
+    font-size: 20px;
+    color: #616ca8;
+    padding: 20px 0;
+    margin-left: 170px;
+    letter-spacing: 5px;
+   
+}
+
